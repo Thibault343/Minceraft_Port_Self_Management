@@ -4,4 +4,10 @@ Its realy helpfull if youre didn't use your minecraft server 24/24.
 
 This script use IPtables for the firewall and cron for the automatisation of the script.
 
-#Setup
+# Setup
+## Installation
+## Settings
+## Automation
+
+# Parameters
+## Time Between Checking
