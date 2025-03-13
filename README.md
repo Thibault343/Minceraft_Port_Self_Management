@@ -10,23 +10,24 @@ Before installing, make sure iptables is properly configured on your server. If 
 ## Installation
 ### Download the repository
 Clone or download the repository anywhere on your server:
-´´´bash
+```bash
 git clone https://github.com/Thibault343/Minecraft_Port_Self_Management
 cd Minecraft_Port_Self_Management 
-´´´
+```
 ### Install required packages
 Install cron:
-´´´bash
+```bash
 sudo apt update && sudo apt install cron -y
 
-´´´
+```
 ### Enable and start Cron
-´´´bash
+```bash
 sudo systemctl enable --now cron
-´´´
+```
 ### Make sure the script is executable
-´´´bash
+```bash
 chmod +x MinecraftPortManager.sh
+```
 ## Settings
 ## Automation
 
