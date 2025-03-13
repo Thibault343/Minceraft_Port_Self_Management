@@ -29,6 +29,9 @@ sudo systemctl enable --now cron
 chmod +x MinecraftPortManager.sh
 ```
 ## Settings
+### Define the server file
+In the first time you need to define the jat file use for your serveur.
+
 ## Automation
 
 # Parameters
