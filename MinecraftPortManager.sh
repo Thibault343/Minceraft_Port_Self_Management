@@ -4,7 +4,7 @@
 echo "[$(date)] Checking Minecraft server status..." >> PortLogManager.log
 
 # Name of the Minecraft server .jar file
-jar_file="minecraft_server.jar"
+jar_file="minecraft_server.jar" #Complete with the name of your file
 
 # Function to open port 25565 (if not already open)
 open_port() {
