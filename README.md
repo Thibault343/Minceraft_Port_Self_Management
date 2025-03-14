@@ -45,5 +45,14 @@ In the first time let's verify if cron is install.
 ```bash
 crontab -l
 ```
+Let's open the crontab editor.
+> [!WARNING]  
+> You have the choise of the editor but by default is nano, if your more familliar with another you can try.
+> But personnaly i choose the default one, Nano.
+```bash
+crontab -e
+```
+
+
 # Parameters
 ## Time Between Checking
