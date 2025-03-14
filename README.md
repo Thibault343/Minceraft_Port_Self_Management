@@ -30,8 +30,8 @@ chmod +x MinecraftPortManager.sh
 ```
 ## Settings
 ### Define the server file
-In the first time you need to define the jat file use for your serveur.
-Replace minecraft_server.jar with the name of your file at line 6.
+In the first time you need to define the rat file use for your serveur.
+Replace minecraft_server.jar with the name of your file at line 6 of the script.
 ```bash
 # Name of the Minecraft server .jar file
 jar_file="minecraft_server.jar" #Complete with the name of your file
