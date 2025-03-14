@@ -52,7 +52,17 @@ Let's open the crontab editor.
 ```bash
 crontab -e
 ```
-
-
+Let's start to config.
+In the file your gonna write.
+He gonna execute the script every twenty minutes.
+```bash
+*/20 * * * * /scripts/monitor.sh
+```
 # Parameters
 ## Time Between Checking
+For the parameter of when execute the script.
+You can change the value of 20 to 2 or 5.
+You select days of the year or a lots of othes parameters
+> [!IMPORTANT]  
+> [Minute] [hour] [Day_of_the_Month] [Month_of_the_Year] [Day_of_the_Week] [command]
+[https://wiki.debian.org/cron]Cron Documentation
