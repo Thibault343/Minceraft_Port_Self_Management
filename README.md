@@ -38,6 +38,12 @@ jar_file="minecraft_server.jar" #Complete with the name of your file
 ```
 
 ## Automation
-
+For automatisate this script we gonna use cron.
+In the first time let's verify if cron is install.
+> [!IMPORTANT]  
+> If your not in root. you gonna need to use sudo for crontab command.
+```bash
+crontab -l
+```
 # Parameters
 ## Time Between Checking
